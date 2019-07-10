@@ -1,4 +1,4 @@
-# Fast&Curious
+#Fast&Curious
 
 A javascript-based mathematical game with iPhone as motion controller. It allows users to navigate a racecar with their iPhone across lanes to collect coins with corresponding answers to math problems.
 
@@ -13,7 +13,6 @@ The mobile app folder contains the complete code for the mobile motion controlle
 
 The server files folder is to be copied to a location with python installed and hosted by a web server (e.g. apache2). Then the game could be accessed with a browser visiting the corresponding address. 
 
-Once the server files are deployed.
-run api.py to initiate the REST API (e.g.  python3 api.py) 
+Once the server files are deployed, run api.py to initiate the REST API (e.g.  python3 api.py) 
 
 The mobile app could be deployed on an iPhone with Xcode. The app automatically sends API calls to Flask once opened.   
