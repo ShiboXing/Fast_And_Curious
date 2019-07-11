@@ -21,7 +21,7 @@ class Angle(Resource):
 		parser.add_argument("hs")
 		args=parser.parse_args()
 		
-		data["a"]=int(args["a"])
+		data["a"]=int(float(args["a"][9:-1]))
 
 		data["hs"]=bool(args["hs"])
 		print(data["hs"])

@@ -1,14 +1,14 @@
 //
-//  Flappier_BirdUITests.swift
-//  Flappier BirdUITests
+//  MobileControllerUITests.swift
+//  MobileControllerUITests
 //
-//  Created by --- on 2/22/19.
+//  Created by --- on 7/11/19.
 //  Copyright © 2019 Vault Dweller. All rights reserved.
 //
 
 import XCTest
 
-class Flappier_BirdUITests: XCTestCase {
+class MobileControllerUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

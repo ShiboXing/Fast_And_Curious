@@ -63,8 +63,8 @@ $(document).ready(function(){
 
 
 function showDialog() {
-	$("#dialog").css("display: block");
-	$("#dialog").dialog({ title: "Sorry!" }, {close: function( event, ui ) { window.location.reload(true);}})
+//	$("#dialog").css("display: block");
+//	$("#dialog").dialog({ title: "Sorry!" }, {close: function( event, ui ) { window.location.reload(true);}})
 }
 
 
@@ -115,12 +115,10 @@ function doWork() {
 		//console.log(a+"  "+b);
 		
 		
-		a+=30;
 		deg=a*1.6;
 		$("#toggle").css({'transform' : 'rotate('+ deg +'deg)'});
 		$("#controller").css({'transform' : 'rotate('+ deg +'deg)'});
 		//console.log("a: "+a);
-		a=(a+25);
 
 		var ww=$(window).width();
 		var lb=ww*0.3;
