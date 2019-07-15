@@ -11,7 +11,7 @@ The mobile app folder contains the complete code for the mobile motion controlle
 
 ## how to install
 
-The server files folder is to be copied to a location with python installed and hosted by a web server (e.g. apache2). Then the game could be accessed with a browser visiting the corresponding address. 
+The server files folder is to be copied to a linux terminal with python installed and hosted with a web server (e.g. apache2). Make sure https (443) port is open then the game could be accessed with a browser visiting the corresponding address (:443).
 
 Once the server files are deployed, run api.py to initiate the REST API (e.g.  python3 api.py) 
 
