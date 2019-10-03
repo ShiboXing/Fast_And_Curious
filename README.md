@@ -1,4 +1,4 @@
-#Fast&Curious
+# Fast&Curious
 
 A javascript-based mathematical game with iPhone as motion controller. It allows users to navigate a racecar with their iPhone across lanes to collect coins with corresponding answers to math problems.
 
