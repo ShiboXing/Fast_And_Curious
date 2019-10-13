@@ -11,8 +11,9 @@ The mobile app folder contains the complete code for the mobile motion controlle
 
 ## how to install
 
-The server files folder is to be copied to a linux terminal with python installed and hosted with a web server (e.g. apache2). Make sure https (443) port is open then the game could be accessed with a browser visiting the corresponding address (:443).
+The server files folder is to be copied to a Mac/linux instance.
+Make sure https (443) port is open then the game could be accessed with a browser visiting the corresponding address (:443).
 
-Once the server files are deployed, run api.py to initiate the REST API (e.g.  python3 api.py) 
+Run api.py to initiate the REST API (e.g.  'python3 api.py') 
 
 The mobile app could be deployed on an iPhone with Xcode. The app automatically sends API calls to Flask once opened.   
